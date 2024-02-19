@@ -1,0 +1,1 @@
+../stm32_core_cpp_lib/hardware/UART/core_hardware_UART.cpp:22:6:void uartRxCmpltDMA_callback(UART_HandleTypeDef*, uint16_t)	24	static
