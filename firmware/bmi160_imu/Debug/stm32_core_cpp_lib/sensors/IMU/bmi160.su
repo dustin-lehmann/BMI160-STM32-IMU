@@ -7,19 +7,19 @@
 ../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:12:1:BMI160::BMI160()	16	static
 ../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:17:9:uint8_t BMI160::writeRegister(uint8_t, uint8_t)	16	static
 ../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:27:9:uint8_t BMI160::init(bmi160_config_t)	32	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:85:9:uint8_t BMI160::readRegister(uint8_t)	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:98:9:uint8_t BMI160::readMultipleRegister(uint8_t, uint8_t*, uint8_t)	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:111:9:uint8_t BMI160::check()	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:121:9:uint8_t BMI160::readID()	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:126:6:void BMI160::update()	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:132:9:uint8_t BMI160::fetchData()	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:141:9:uint8_t BMI160::processData()	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:224:6:void BMI160::setCalibration(float, float, float)	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:231:9:uint8_t BMI160::readGyr()	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:243:9:uint8_t BMI160::readAcc()	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:255:9:uint8_t BMI160::readSensorTime()	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:263:9:uint8_t BMI160::setGyroConfig(uint8_t, uint8_t)	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:272:9:uint8_t BMI160::setAccConfig(uint8_t, uint8_t)	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:280:9:uint8_t BMI160::setPowerMode(BMI160_PowerMode)	16	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:297:6:void BMI160::fastOffsetCalibration()	24	static
-../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:336:6:void BMI160::reset()	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:91:9:uint8_t BMI160::readRegister(uint8_t)	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:104:9:uint8_t BMI160::readMultipleRegister(uint8_t, uint8_t*, uint8_t)	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:117:9:uint8_t BMI160::check()	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:127:9:uint8_t BMI160::readID()	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:132:6:void BMI160::update()	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:138:9:uint8_t BMI160::fetchData()	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:147:9:uint8_t BMI160::processData()	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:230:6:void BMI160::setCalibration(float, float, float)	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:237:9:uint8_t BMI160::readGyr()	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:249:9:uint8_t BMI160::readAcc()	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:261:9:uint8_t BMI160::readSensorTime()	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:269:9:uint8_t BMI160::setGyroConfig(uint8_t, uint8_t)	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:278:9:uint8_t BMI160::setAccConfig(uint8_t, uint8_t)	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:286:9:uint8_t BMI160::setPowerMode(BMI160_PowerMode)	16	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:303:6:void BMI160::fastOffsetCalibration()	24	static
+../stm32_core_cpp_lib/sensors/IMU/bmi160.cpp:342:6:void BMI160::reset()	16	static

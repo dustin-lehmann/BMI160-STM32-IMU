@@ -1,10 +1,10 @@
 stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.o: \
  ../stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.cpp \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_MessageQueue.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_includes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_default_config.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_MessageQueue.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_default_config.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../Core/Inc/stm32l4xx_hal_conf.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -46,29 +46,29 @@ stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_defs.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/cobs.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_bytes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/../core_default_config.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_RingBuffer.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_registermap.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/core_hardware_UART.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../core_includes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../utils/core_utils.h
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_MessageQueue.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_includes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_default_config.h:
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_defs.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/cobs.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_bytes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/../core_default_config.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_RingBuffer.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_registermap.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/core_hardware_UART.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../utils/core_utils.h
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_UartInterface.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_MessageQueue.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_default_config.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../Core/Inc/stm32l4xx_hal_conf.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
@@ -110,21 +110,21 @@ C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_im
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_defs.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/cobs.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_bytes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/../core_default_config.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_RingBuffer.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_registermap.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/core_hardware_UART.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../core_includes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../utils/core_utils.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../core_defs.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/cobs.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_bytes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/../core_default_config.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_RingBuffer.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_registermap.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/core_hardware_UART.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART/../../utils/core_utils.h:

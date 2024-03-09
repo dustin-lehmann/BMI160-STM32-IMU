@@ -14,8 +14,9 @@
 #define IMU_UPDATE_TIME 10
 #define COMM_TIME 20
 
-extern SPI_HandleTypeDef* hspi3;
-extern UART_HandleTypeDef* huart1;
+extern SPI_HandleTypeDef hspi3;
+extern SPI_HandleTypeDef hspi1;
+extern UART_HandleTypeDef huart1;
 
 
 

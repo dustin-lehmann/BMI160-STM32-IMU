@@ -16,7 +16,7 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Startup/%.o: ../Core/Startup/%.s Core/Startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/firmware" -I"C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib" -I"C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils" -I"C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/communication/modbus_rtu" -I"C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/hardware/UART" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"C:/work_dir/temp/bmi160/bmi160_imu/firmware" -I"C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib" -I"C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils" -I"C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/hardware/UART" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-Core-2f-Startup
 

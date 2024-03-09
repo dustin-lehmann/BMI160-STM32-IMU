@@ -17,8 +17,6 @@
 #include "hardware/BUTTON/core_hardware_button.h"
 #include "sensors/IMU/bmi160.h"
 #include "sensors/IMU/core_imu_helpers.h"
-#include "communication/modbus_rtu/modbus_rtu.h"
-#include "utils/core_debug.hpp"
 #include "hardware/SPI/core_hardware_spi.h"
 
 

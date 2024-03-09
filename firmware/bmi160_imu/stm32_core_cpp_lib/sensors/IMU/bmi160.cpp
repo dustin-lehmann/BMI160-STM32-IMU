@@ -28,8 +28,15 @@ uint8_t BMI160::init(bmi160_config_t config) {
 
 	this->_config = config;
 	// Make a dummy read to turn on SPI mode
-//	this->readRegister(0x7F);
+//
+
+	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_RESET);
+	delay(100);
 	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_SET);
+
+	// Reset the IMU to delete all previously loaded registers
+	this->readRegister(0x7F);
+
 	delay(250);
 
 	// Check if the IMU can be addressed
@@ -38,9 +45,8 @@ uint8_t BMI160::init(bmi160_config_t config) {
 		core_ErrorHandler(CORE_ERROR_HARDWARE_IMU);
 	}
 
-	// Reset the IMU to delete all previously loaded registers
-	this->reset();
 
+	this->reset();
 	// Wait until the reset is finished
 	delay(250);
 
@@ -87,8 +93,8 @@ uint8_t BMI160::readRegister(uint8_t reg) {
 	reg |= 0x80;
 
 	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_RESET);
-	HAL_SPI_Transmit(this->_config.hspi, &reg, 1, 10);
-	HAL_SPI_Receive(this->_config.hspi, &ret, 1, 10);
+	HAL_SPI_Transmit(this->_config.hspi, &reg, 1, 100);
+	HAL_SPI_Receive(this->_config.hspi, &ret, 1, 100);
 	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_SET);
 
 	return ret;
@@ -100,8 +106,8 @@ uint8_t BMI160::readMultipleRegister(uint8_t reg, uint8_t *data, uint8_t len) {
 	reg |= 0x80;
 
 	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_RESET);
-	HAL_SPI_Transmit(this->_config.hspi, &reg, 1, 10);
-	HAL_SPI_Receive(this->_config.hspi, data, len, 10);
+	HAL_SPI_Transmit(this->_config.hspi, &reg, 1, 100);
+	HAL_SPI_Receive(this->_config.hspi, data, len, 100);
 	HAL_GPIO_WritePin(this->_config.CS_GPIOx, this->_config.CS_GPIO_Pin, GPIO_PIN_SET);
 
 	return CORE_OK;

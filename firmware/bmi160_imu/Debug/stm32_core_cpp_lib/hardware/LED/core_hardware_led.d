@@ -1,8 +1,8 @@
 stm32_core_cpp_lib/hardware/LED/core_hardware_led.o: \
  ../stm32_core_cpp_lib/hardware/LED/core_hardware_led.cpp \
  ../stm32_core_cpp_lib/hardware/LED/core_hardware_led.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_default_config.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_default_config.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../Core/Inc/stm32l4xx_hal_conf.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -44,10 +44,10 @@ stm32_core_cpp_lib/hardware/LED/core_hardware_led.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_defs.h
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_defs.h
 ../stm32_core_cpp_lib/hardware/LED/core_hardware_led.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_default_config.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_default_config.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../Core/Inc/stm32l4xx_hal_conf.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
@@ -89,4 +89,4 @@ C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_im
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_defs.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_defs.h:

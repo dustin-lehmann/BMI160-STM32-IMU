@@ -11,7 +11,6 @@ RM := rm -rf
 -include sources.mk
 -include stm32_core_cpp_lib/utils/subdir.mk
 -include stm32_core_cpp_lib/sensors/IMU/subdir.mk
--include stm32_core_cpp_lib/robot/simplexmotion_motors/subdir.mk
 -include stm32_core_cpp_lib/memory/fram/subdir.mk
 -include stm32_core_cpp_lib/hardware/UART/subdir.mk
 -include stm32_core_cpp_lib/hardware/SPI/subdir.mk
@@ -22,7 +21,6 @@ RM := rm -rf
 -include stm32_core_cpp_lib/ext/madgwick_ahrs/subdir.mk
 -include stm32_core_cpp_lib/control/state_feedback/subdir.mk
 -include stm32_core_cpp_lib/communication/uart_interface/subdir.mk
--include stm32_core_cpp_lib/communication/modbus_rtu/subdir.mk
 -include firmware/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk
@@ -103,8 +101,8 @@ all: main-build
 main-build: bmi160_imu.elf secondary-outputs
 
 # Tool invocations
-bmi160_imu.elf bmi160_imu.map: $(OBJS) $(USER_OBJS) C:\work_dir\projects\testbed\software\robots\software_board\_workspace\bmi160_imu\STM32L432KBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "bmi160_imu.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\work_dir\projects\testbed\software\robots\software_board\_workspace\bmi160_imu\STM32L432KBUX_FLASH.ld" -Wl,-Map="bmi160_imu.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+bmi160_imu.elf bmi160_imu.map: $(OBJS) $(USER_OBJS) C:\work_dir\temp\bmi160\bmi160_imu\STM32L432KBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "bmi160_imu.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\work_dir\temp\bmi160\bmi160_imu\STM32L432KBUX_FLASH.ld" -Wl,-Map="bmi160_imu.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

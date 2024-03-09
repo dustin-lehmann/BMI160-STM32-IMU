@@ -46,7 +46,6 @@ Middlewares/Third_Party/FreeRTOS/Source \
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F \
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang \
 firmware \
-stm32_core_cpp_lib/communication/modbus_rtu \
 stm32_core_cpp_lib/communication/uart_interface \
 stm32_core_cpp_lib/control/state_feedback \
 stm32_core_cpp_lib/ext/madgwick_ahrs \
@@ -57,7 +56,6 @@ stm32_core_cpp_lib/hardware/RS485 \
 stm32_core_cpp_lib/hardware/SPI \
 stm32_core_cpp_lib/hardware/UART \
 stm32_core_cpp_lib/memory/fram \
-stm32_core_cpp_lib/robot/simplexmotion_motors \
 stm32_core_cpp_lib/sensors/IMU \
 stm32_core_cpp_lib/utils \
 

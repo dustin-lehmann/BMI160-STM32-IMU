@@ -11,9 +11,8 @@
 
 #include "elapsedMillis.h"
 
-bmi160_config_t imu_config = { .hspi = hspi3, .CS_GPIOx = GPIOB, .CS_GPIO_Pin =
-GPIO_PIN_6,
-};
+bmi160_config_t imu_config = { .hspi = &hspi3, .CS_GPIOx = GPIOB, .CS_GPIO_Pin =
+GPIO_PIN_6, };
 
 elapsedMillis blinkTimer;
 
@@ -25,17 +24,31 @@ void imu_task(void *attributes);
 void communication_task(void *attributes);
 
 const osThreadAttr_t imu_task_attributes = { .name = "imu_task", .stack_size =
-		2560 * 4, .priority = (osPriority_t) osPriorityNormal, };
-
+		128 * 4, .priority = (osPriority_t) osPriorityNormal, };
+//
 const osThreadAttr_t comm_task_attributes = { .name = "comm_task", .stack_size =
-		2560 * 4, .priority = (osPriority_t) osPriorityNormal, };
+		128 * 4, .priority = (osPriority_t) osPriorityHigh3, };
 
 void firmware() {
 
-	imu.init(imu_config);
+	uint8_t ret = imu.init(imu_config);
+
+	if (ret != 1) {
+		while (true) {
+			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+			delay(100);
+			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+			delay(250);
+			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+			delay(100);
+			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+			delay(250);
+			delay(500);
+		}
+	}
 
 	osThreadNew(imu_task, NULL, &imu_task_attributes);
-	osThreadNew(imu_task, NULL, &comm_task_attributes);
+	osThreadNew(communication_task, NULL, &comm_task_attributes);
 
 }
 
@@ -49,16 +62,19 @@ void imu_task(void *attributes) {
 
 void communication_task(void *attributes) {
 	float imu_gyr_x, imu_gyr_y, imu_gyr_z, imu_acc_x, imu_acc_y, imu_acc_z = 0;
-	uint8_t data[28] = {0};
-	uint8_t data_encoded[100] = {0};
+	uint8_t data[28] = { 0 };
+	uint8_t data_encoded[100] = { 0 };
+	uint32_t comm_rtos_tick = 0;
 
 	while (true) {
+		comm_rtos_tick = osKernelGetTickCount();
 		comm_tick++;
 
 		// Blink LED
-		if (blinkTimer >= 250) {
+		if (blinkTimer >= 500) {
 			blinkTimer = 0;
 			HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+
 		}
 
 		// Get the IMU Data
@@ -81,8 +97,10 @@ void communication_task(void *attributes) {
 		uint8_t encode_length = cobsEncode(data, 28, data_encoded);
 		data_encoded[encode_length] = 0x00;
 
-		HAL_UART_Transmit(huart1, data_encoded, encode_length+1, 10);
+		HAL_UART_Transmit(&huart1, data_encoded, encode_length + 1,
+				HAL_MAX_DELAY);
 
+		osDelayUntil(comm_rtos_tick + COMM_TIME);
 
 	}
 

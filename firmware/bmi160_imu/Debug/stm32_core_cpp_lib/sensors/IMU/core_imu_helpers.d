@@ -45,19 +45,19 @@ stm32_core_cpp_lib/sensors/IMU/core_imu_helpers.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../stm32_core_cpp_lib/sensors/IMU/../../core_defs.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/cobs.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_bytes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_errors.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_math.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_gpio.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_Callback.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_functionpointer.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_BufferQueue.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/../core_default_config.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_RingBuffer.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_registermap.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/cobs.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_bytes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_errors.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_math.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_gpio.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_Callback.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_functionpointer.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_BufferQueue.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/../core_default_config.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_RingBuffer.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_registermap.h \
  ../stm32_core_cpp_lib/sensors/IMU/bmi160.h \
  ../stm32_core_cpp_lib/sensors/IMU/../../utils/core_utils.h \
  ../stm32_core_cpp_lib/sensors/IMU/bmi160_defs.h
@@ -106,19 +106,19 @@ stm32_core_cpp_lib/sensors/IMU/core_imu_helpers.o: \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 ../stm32_core_cpp_lib/sensors/IMU/../../core_defs.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/cobs.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_bytes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_errors.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_math.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_gpio.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_Callback.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_functionpointer.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_BufferQueue.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/../core_default_config.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_RingBuffer.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_registermap.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/cobs.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_bytes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_errors.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_math.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_gpio.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_Callback.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_functionpointer.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_BufferQueue.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/../core_default_config.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_RingBuffer.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/utils/core_utils_registermap.h:
 ../stm32_core_cpp_lib/sensors/IMU/bmi160.h:
 ../stm32_core_cpp_lib/sensors/IMU/../../utils/core_utils.h:
 ../stm32_core_cpp_lib/sensors/IMU/bmi160_defs.h:

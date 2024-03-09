@@ -31,7 +31,13 @@ bmi160_gyr_calib_t core_sensors_GyroCalibration(BMI160 *imu, uint8_t samples,
 		gyr_y[i] = imu->gyr.y;
 		gyr_z[i] = imu->gyr.z;
 
+	#if CORE_CONFIG_USE_RTOS
 		osDelay(50);
+	#else
+		delay(50);
+	#endif
+
+
 	}
 
 	calib.x = mean(gyr_x, samples);

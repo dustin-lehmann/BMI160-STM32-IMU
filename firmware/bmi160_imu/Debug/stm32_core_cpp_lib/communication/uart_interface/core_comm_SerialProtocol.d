@@ -51,7 +51,7 @@ stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.o: \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h \
- C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
+ C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h \
  ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h \
@@ -109,7 +109,7 @@ stm32_core_cpp_lib/communication/uart_interface/core_comm_SerialProtocol.o: \
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_errors.h:
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_math.h:
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_gpio.h:
-C:/work_dir/projects/testbed/software/robots/software_board/_workspace/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
+C:/work_dir/temp/bmi160/bmi160_imu/stm32_core_cpp_lib/core_includes.h:
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_Callback.h:
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_functionpointer.h:
 ../stm32_core_cpp_lib/communication/uart_interface/../../utils/core_utils_BufferQueue.h:
